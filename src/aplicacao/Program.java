@@ -28,7 +28,7 @@ public class Program {
 	
     
      
-      list = sellerDao.findByDepartment(department);
+      list = sellerDao.findAll();
 	for ( Seller obj: list) {
 		System.out.println(obj);
 	}
