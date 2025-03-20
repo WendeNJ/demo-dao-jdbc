@@ -25,7 +25,7 @@ public class Program {
 		
 		
 	} System.out.println("\n TEST 3: seller findAll ====");
-	 System.out.println("\n=== TEST 2: seller findBydepartment ====");
+	
     
      
       list = sellerDao.findByDepartment(department);
